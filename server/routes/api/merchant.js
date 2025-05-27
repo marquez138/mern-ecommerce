@@ -10,7 +10,7 @@ const User = require('../../models/user');
 const Brand = require('../../models/brand');
 const auth = require('../../middleware/auth');
 const role = require('../../middleware/role');
-const mailgun = require('../../services/mailgun');
+// const mailgun = require('../../services/mailgun');
 
 // add merchant api
 router.post('/add', async (req, res) => {
